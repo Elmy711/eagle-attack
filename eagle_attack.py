@@ -15,8 +15,8 @@ class EagleAttack:
         self.is_running = True
 
     def banner(self):
-        os.system('clear')
-        print(f""" {Fore.RED} .─────────────────────────────────────────────────────────────. {Fore.RED} │{Fore.RED} ██╗ ██╗ ██████╗ ██╗██████╗ ██╗ ██╗██╗ ██████╗ {Fore.RED}│ {Fore.RED} │{Fore.WHITE} ██║ ██║██╔═══██╗██║██╔══██╗ ██║ ██║██║██╔═══██╗ {Fore.RED}│ {Fore.RED} │{Fore.WHITE} ██║ ██║██║ ██║██║██║ ██║ ██║ ██║██║██║ ██║ {Fore.RED}│ {Fore.RED} │{Fore.RED} ╚██╗ ██╔╝██║ ██║██║██║ ██║ ╚██╗ ██╔╝██║██║ ██║ {Fore.RED}│ {Fore.RED} │{Fore.RED} ╚████╔╝ ╚██████╔╝██║██████╔╝ ╚████╔╝ ██║╚██████╔╝ {Fore.RED}│ {Fore.RED} │{Fore.RED} ╚═══╝ ╚═════╝ ╚═╝╚═════╝ ╚═══╝ ╚═╝ ╚═════╝ {Fore.RED}│ {Fore.RED} '─────────────────────────────────────────────────────────────' {Fore.CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ {Fore.WHITE} NAME : {Fore.YELLOW}𝐄𝐀𝐆𝐋𝐄 𝐀𝐓𝐓𝐀𝐂𝐊  {Fore.WHITE} | {Fore.RED}MODE : KERNEL-STRESS {Fore.WHITE} BYPASS : {Fore.MAGENTA}RAPID-RESET L7 {Fore.WHITE} | {Fore.GREEN}ANON : MY EAGLE {Fore.CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
+    os.system('clear')
+    print(f""" {Fore.RED} .─────────────────────────────────────────────────────────────. {Fore.RED} │{Fore.RED} ██╗ ██╗ ██████╗ ██╗██████╗ ██╗ ██╗██╗ ██████╗ {Fore.RED}│ {Fore.RED} │{Fore.WHITE} ██║ ██║)
 
     async def attack_engine(self, host, port, path):
         """Asynchronous Zero-Copy Packet Injection"""
