@@ -1,27 +1,28 @@
 import asyncio
-import random
-import ssl
-import sys
-import time
-import os
-from colorama import Fore, init
-init(autoreset=True)
-
-class EagleAttack:
-    def __init__(self):
-        self.owner = "MY EAGLE"
-        self.sent = 0
-        self.start_time = time.time()
-        self.is_running = True
+‎import random
+‎import ssl
+‎import sys
+‎import time
+‎import os
+‎from colorama import Fore, init
+‎init(autoreset=True)
+‎
+‎class EagleAttack:
+‎    def __init__(self):
+‎        self.owner = "MY EAGLE"
+‎        self.sent = 0
+‎        self.start_time = time.time()
+‎        self.is_running = True
+‎        self.banner()
 
     def banner(self):
         os.system('clear')
         print(f"""
  {Fore.RED} .──────────────────────────────────────────────────────────────────────────────────  
- {Fore.RED} │{Fore.RED}  ███╗   ███╗ ██╗   ██╗    ███████╗ █████╗  ██████╗   ██╗     ██████ {Fore.RED}│ 
- {Fore.RED} │{Fore.RED}  ████╗ ████║╚██╗ ██╔╝    ██╔════╝██╔══██╗██╔════╝  ██║     ██╔═══  {Fore.RED}│ 
- {Fore.RED} │{Fore.RED}  ██╔████╔██║ ╚████╔╝     █████╗  ███████║██║  ███╗ ██║     █████╗  {Fore.RED}│ 
- {Fore.RED} │{Fore.RED}  ██║╚██╔╝██║  ╚██╔╝      ██╔══╝  ██╔══██║██║   ██║ ██║     ██╔═     {Fore.RED}│ 
+ {Fore.RED} │{Fore.CYAN}  ███╗   ███╗ ██╗   ██╗    ███████╗ █████╗  ██████╗   ██╗     ██████ {Fore.RED}│ 
+ {Fore.RED} │{Fore.CYAN}  ████╗ ████║╚██╗ ██╔╝    ██╔════╝██╔══██╗██╔════╝  ██║     ██╔═══  {Fore.RED}│ 
+ {Fore.RED} │{Fore.WHITE} ██╔████╔██║ ╚████╔╝     █████╗  ███████║██║  ███╗ ██║     █████╗  {Fore.RED}│ 
+ {Fore.RED} │{Fore.WHITE} ██║╚██╔╝██║  ╚██╔╝      ██╔══╝  ██╔══██║██║   ██║ ██║     ██╔═     {Fore.RED}│ 
  {Fore.RED} │{Fore.RED}  ██║ ╚═╝ ██║   ██║       ███████╗██║  ██║╚██████╔╝███████╗███████╗{Fore.RED}│                            
  {Fore.RED} │{Fore.RED}  ╚═╝     ╚═╝   ╚═╝       ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝ {Fore.RED}│ 
  {Fore.RED} '─────────────────────────────────────────────────────────────────────────────────   
