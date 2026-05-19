@@ -17,17 +17,18 @@ class EagleAttack:
     def banner(self):
         os.system('clear')
         print(f"""
- {Fore.RED} .─────────────────────────────────────────────────────────────. 
- {Fore.RED} │{Fore.RED} ██╗ ██╗ ██████╗ ██╗██████╗ ██╗ ██╗██╗ ██████╗ {Fore.RED}│ 
- {Fore.RED} │{Fore.WHITE} ██║ ██║██╔═══██╗██║██╔══██╗ ██║ ██║██║██╔═══██╗ {Fore.RED}│ 
- {Fore.RED} │{Fore.WHITE} ██║ ██║██║ ██║██║██║ ██║ ██║ ██║██║██║ ██║ {Fore.RED}│ 
- {Fore.RED} │{Fore.RED} ╚██╗ ██╔╝██║ ██║██║██║ ██║ ╚██╗ ██╔╝██║██║ ██║ {Fore.RED}│ 
- {Fore.RED} │{Fore.RED} ╚████╔╝ ╚██████╔╝██║██████╔╝ ╚████╔╝ ██║╚██████╔╝ {Fore.RED}│ 
- {Fore.RED} │{Fore.RED} ╚═══╝ ╚═════╝ ╚═╝╚═════╝ ╚═══╝ ╚═╝ ╚═════╝ {Fore.RED}│ 
- {Fore.RED} '─────────────────────────────────────────────────────────────' 
- {Fore.CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
- {Fore.WHITE} NAME : {Fore.YELLOW}MY EAGLE {Fore.WHITE} | {Fore.RED}MODE : KERNEL-STRESS {Fore.WHITE} BYPASS : {Fore.MAGENTA}RAPID-RESET L7 {Fore.WHITE} | {Fore.GREEN}CODE : MY EAGLE 
- {Fore.CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ {Fore.RED} .──────────────────────────────────────────────────────────────────────────────────  
+ {Fore.RED} │{Fore.RED}  ███╗   ███╗ ██╗   ██╗    ███████╗ █████╗  ██████╗   ██╗     ██████ {Fore.RED}│ 
+ {Fore.RED} │{Fore.RED}  ████╗ ████║╚██╗ ██╔╝    ██╔════╝██╔══██╗██╔════╝  ██║     ██╔═══  {Fore.RED}│ 
+ {Fore.RED} │{Fore.RED}  ██╔████╔██║ ╚████╔╝     █████╗  ███████║██║  ███╗ ██║     █████╗  {Fore.RED}│ 
+ {Fore.RED} │{Fore.RED}  ██║╚██╔╝██║  ╚██╔╝      ██╔══╝  ██╔══██║██║   ██║ ██║     ██╔═     {Fore.RED}│ 
+ {Fore.RED} │{Fore.RED}  ██║ ╚═╝ ██║   ██║       ███████╗██║  ██║╚██████╔╝███████╗███████╗{Fore.RED}│                            
+ {Fore.RED} │{Fore.RED}  ╚═╝     ╚═╝   ╚═╝       ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝ {Fore.RED}│ 
+ {Fore.RED} '─────────────────────────────────────────────────────────────────────────────────   
+ {Fore.CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ {Fore.WHITE} NAME : {Fore.YELLOW}MY EAGLE {Fore.WHITE} | {Fore.RED}MODE : KERNEL-STRESS {Fore.WHITE} |
+{Fore.WHITE} BYPASS : {Fore.MAGENTA}RAPID-RESET L7 {Fore.WHITE} |{Fore.GREEN}CODE : MY EAGLE   |
+ {Fore.CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
 """)
 
     async def attack_engine(self, host, port, path):
@@ -87,3 +88,7 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         app.is_running = False
         print(f"\n\n{Fore.RED}[!] EAGLE PROTOCOL HALTED.")
+
+
+
+
