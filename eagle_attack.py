@@ -9,17 +9,16 @@ init(autoreset=True)
 
 class EagleAttack:
     def __init__(self):
-        self.owner = "𝐄𝐀𝐆𝐋𝐄"
+        self.owner = "MR EAGLE"
         self.sent = 0
         self.start_time = time.time()
         self.is_running = True
 
     def banner(self):
-    os.system('clear')
-    print(f"""... {Fore.RED} .─────────────────────────────────────────────────────────────. {Fore.RED} │{Fore.RED} ██╗ ██╗ ██████╗ ██╗██████╗ ██╗ ██╗██╗ ██████╗ {Fore.RED}│ {Fore.RED} │{Fore.WHITE} ██║ ██║)
+        os.system('clear')
+        print(f""" {Fore.RED} .─────────────────────────────────────────────────────────────. {Fore.RED} │{Fore.RED} ██╗ ██╗ ██████╗ ██╗██████╗ ██╗ ██╗██╗ ██████╗ {Fore.RED}│ {Fore.RED} │{Fore.WHITE} ██║ ██║██╔═══██╗██║██╔══██╗ ██║ ██║██║██╔═══██╗ {Fore.RED}│ {Fore.RED} │{Fore.WHITE} ██║ ██║██║ ██║██║██║ ██║ ██║ ██║██║██║ ██║ {Fore.RED}│ {Fore.RED} │{Fore.RED} ╚██╗ ██╔╝██║ ██║██║██║ ██║ ╚██╗ ██╔╝██║██║ ██║ {Fore.RED}│ {Fore.RED} │{Fore.RED} ╚████╔╝ ╚██████╔╝██║██████╔╝ ╚████╔╝ ██║╚██████╔╝ {Fore.RED}│ {Fore.RED} │{Fore.RED} ╚═══╝ ╚═════╝ ╚═╝╚═════╝ ╚═══╝ ╚═╝ ╚═════╝ {Fore.RED}│ {Fore.RED} '─────────────────────────────────────────────────────────────' {Fore.CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ {Fore.WHITE} NAME : {Fore.YELLOW}EAGLE ATTACK {Fore.WHITE} | {Fore.RED}MODE : KERNEL-STRESS {Fore.WHITE} BYPASS : {Fore.MAGENTA}RAPID-RESET L7 {Fore.WHITE} | {Fore.GREEN}ANON : GHOST-MESH {Fore.CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 
     async def attack_engine(self, host, port, path):
-        # Asynchronous Zero-Copy Packet Injection
         ssl_context = ssl.create_default_context()
         ssl_context.check_hostname = False
         ssl_context.verify_mode = ssl.CERT_NONE
