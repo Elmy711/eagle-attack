@@ -9,7 +9,7 @@ init(autoreset=True)
 
 class EagleAttack:
     def __init__(self):
-‎        self.owner = "MYEAGLE"
+‎        self.owner = "MY EAGLE"
 ‎        self.sent = 0
 ‎        self.start_time = time.time()
 ‎        self.is_running = True
@@ -27,7 +27,7 @@ class EagleAttack:
  {Fore.RED} │{Fore.RED}  ╚═╝     ╚═╝   ╚═╝       ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝ {Fore.RED}│ 
  {Fore.RED} '─────────────────────────────────────────────────────────────────────────────────   
  {Fore.CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- {Fore.WHITE} NAME : {Fore.YELLOW}MY EAGLE {Fore.WHITE} | {Fore.RED}MODE : KERNEL-STRESS {Fore.WHITE} |
+ {Fore.WHITE} NAME : {Fore.YELLOW} MY EAGLE {Fore.WHITE} | {Fore.RED}MODE : KERNEL-STRESS {Fore.WHITE} |
 {Fore.WHITE} BYPASS : {Fore.MAGENTA}RAPID-RESET L7 {Fore.WHITE} |{Fore.GREEN}CODE : MY EAGLE   |
  {Fore.CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
 """)
