@@ -19,7 +19,7 @@ class EagleAttack:
     print(f""" {Fore.RED} .─────────────────────────────────────────────────────────────. {Fore.RED} │{Fore.RED} ██╗ ██╗ ██████╗ ██╗██████╗ ██╗ ██╗██╗ ██████╗ {Fore.RED}│ {Fore.RED} │{Fore.WHITE} ██║ ██║)
 
     async def attack_engine(self, host, port, path):
-        """Asynchronous Zero-Copy Packet Injection"""
+        # Asynchronous Zero-Copy Packet Injection
         ssl_context = ssl.create_default_context()
         ssl_context.check_hostname = False
         ssl_context.verify_mode = ssl.CERT_NONE
