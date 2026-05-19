@@ -1,12 +1,12 @@
 import asyncio
-‎import random
-‎import ssl
-‎import sys
-‎import time
-‎import os
-‎from colorama import Fore, init
-‎init(autoreset=True)
-‎
+import random
+import ssl
+import sys
+import time
+import os
+from colorama import Fore, init
+init(autoreset=True)
+
 ‎class EagleAttack:
 ‎    def __init__(self):
 ‎        self.owner = "MY EAGLE"
