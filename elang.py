@@ -9,7 +9,7 @@ init(autoreset=True)
 
 class EagleAttack:
     def __init__(self):
-        self.owner = MYEAGLE
+        self.owner = EagleAttack()
         self.sent = 0
         self.start_time = time.time()
         self.is_running = True
