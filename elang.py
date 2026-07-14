@@ -8,8 +8,7 @@ from colorama import Fore, init
 init(autoreset=True)
 
 class EagleAttack:
-    def __init__(self):
-        self.owner = EagleAttack()
+    def __init__(self)
         self.sent = 0
         self.start_time = time.time()
         self.is_running = True
