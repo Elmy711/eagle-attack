@@ -53,7 +53,7 @@ class EagleAttack:
             await asyncio.sleep(0.5)
 
     async def launch(self):
-        target = input(f"{Fore.CYAN}Target URL/DOMAIN: {Fore.WHITE}")
+        target = input(f"{Fore.CYAN}URL: {Fore.WHITE}")
         power = int(input(f"{Fore.CYAN}MYEAGLE THREADS (300-2000): {Fore.WHITE}"))
         host = target.replace("http://", "").replace("https://", "").split("/")[0]
         path = "/" if "/" not in target.split(host)[-1] else target.split(host)[-1]
@@ -69,4 +69,4 @@ if __name__ == "__main__":
         asyncio.run(app.launch())
     except KeyboardInterrupt:
         app.is_running = False
-        print(f"\n\n{Fore.RED}[!] EAGLE PROTOCOL HALTED.")
+        print(f"\n\n{Fore.RED}[!] EAGLE PROTOCOL STOPPED.")
