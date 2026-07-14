@@ -1,4 +1,4 @@
-&import asyncio
+import asyncio
 import random
 import ssl
 import sys
